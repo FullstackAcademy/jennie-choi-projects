@@ -1,3 +1,4 @@
+/*
 header {
     position: fixed; 
     top: 0;
@@ -11,6 +12,7 @@ header {
     justify-content: space-between;
     color: white;
 }
+*/
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,15 +23,55 @@ main {
 h2, h3 {
     text-align: center;
 }
+h1 {
+    color: white;
+}
 a {
     text-decoration: none;
     color: white;
 }
 body {
     margin: 0;
+    background-color: cadetblue;
 }
 .home {
     font-weight: bold;
+}
+header {
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 20px;
+}
+#title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+ul{
+    display: flex;
+}
+header li {
+    list-style: none;
+    padding: 1em;
+}
+header a {
+    text-decoration: none;
+}
+header a:hover {
+    color:blueviolet;
+}
+@media all and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        margin-right: auto;
+    }
+    #title {
+        margin: auto;
+    }
+    ul {
+        flex-direction: column;
+    }
 }
 #photo {
     display: block;
@@ -85,7 +127,10 @@ body {
     width: 80%;
     margin: auto;
 }
-
+.contact {
+    margin-top: 5%;
+    font-size: 20px;
+}
 #calvin {
     width: 30%;
     float: right;
