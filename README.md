@@ -10,3 +10,6 @@ The Personal Website is made up of five functional files:
 --javascript.js
 Submitted on 10/23/2023
 
+This repo includes an update to my Personal Website for the Block 12 assignment. 
+Project link: https://github.com/users/airbornejennie/projects/2
+Part 2 submitted on 10/29/2023
