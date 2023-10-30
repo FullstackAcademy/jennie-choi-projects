@@ -23,11 +23,7 @@ main {
 h2, h3 {
     text-align: center;
 }
-h1 {
-    color: white;
-}
-a {
-    text-decoration: none;
+h1, a {
     color: white;
 }
 body {
@@ -42,7 +38,7 @@ header {
     background-color: lightseagreen;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 20px;
+    padding: 2%;
 }
 #title {
     margin-right: auto;
@@ -61,6 +57,14 @@ header a {
 header a:hover {
     color:blueviolet;
 }
+form {
+    margin: 0 0 0 40%;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+input, textarea {
+    width: 30em;
+}
 @media all and (max-width: 500px) {
     header {
         flex-direction: column;
@@ -72,34 +76,40 @@ header a:hover {
     ul {
         flex-direction: column;
     }
+    form {
+        text-wrap: wrap;
+        margin: auto;
+    }
+    input, textarea {
+        width: fit-content;
+    }
+    .contact {
+        margin: auto;
+    }
 }
 #photo {
     display: block;
     width: 40%;
     margin: auto;
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 #yosemite {
     display: block;
     width: 40%;
     float: right;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 0 1em 1em 0;
 }
 #lebron {
     display: block;
     width: 40%;
     float: left;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 0 1em 1em 0;
 }
 #garden {
     display: block;
     width: 40%;
     float: right;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 0 1em 1em 0;
 }
 .about {
     width: 100%;
@@ -128,28 +138,22 @@ header a:hover {
     margin: auto;
 }
 .contact {
-    margin-top: 5%;
-    font-size: 20px;
+    margin: 5% 0 0 0;
+    text-wrap: nowrap;
 }
 #calvin {
     width: 30%;
     float: right;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 0 5% 5% 5%;
 }
 #hobbes {
     width: 30%;
     float: left;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 0 5% 5% 5%;
 
 }
 #susie {
     width: 30%;
     float: right;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 0 5% 5% 5%;
 }
